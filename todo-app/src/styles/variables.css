@@ -1,0 +1,23 @@
+/* styles/variables.css */
+
+/* Color Palette */
+:root {
+    --primary-color: #4CAF50; /* Green */
+    --secondary-color: #f1f1f1; /* Light Grey */
+    --accent-color: #FF9800; /* Orange */
+    --text-color: #333333; /* Dark Text */
+    --background-color: #ffffff; /* White Background */
+    --error-color: #f44336; /* Red */
+    --border-color: #dddddd; /* Light Grey for borders */
+    
+    /* Font Sizes */
+    --font-size-small: 0.875rem; /* 14px */
+    --font-size-base: 1rem; /* 16px */
+    --font-size-large: 1.25rem; /* 20px */
+    --font-size-xlarge: 1.5rem; /* 24px */
+
+    /* Spacing */
+    --spacing-small: 0.5rem; /* 8px */
+    --spacing-base: 1rem; /* 16px */
+    --spacing-large: 1.5rem; /* 24px */
+}

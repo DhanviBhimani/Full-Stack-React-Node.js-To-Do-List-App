@@ -1,0 +1,81 @@
+/* styles/app.css */
+
+@import './variables.css';
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: var(--font-size-xlarge);
+    color: var(--primary-color);
+    text-align: center;
+    margin: var(--spacing-base);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--spacing-large);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-small);
+    margin-bottom: var(--spacing-large);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    padding: var(--spacing-small);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: var(--font-size-base);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    padding: var(--spacing-small);
+    border-radius: 4px;
+    font-size: var(--font-size-base);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--accent-color);
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-base);
+    border: 1px solid var(--border-color);
+    margin-bottom: var(--spacing-small);
+    border-radius: 4px;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    color: var(--secondary-color);
+}
+
+.error {
+    color: var(--error-color);
+    font-size: var(--font-size-small);
+}
